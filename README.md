@@ -36,7 +36,7 @@ In each project there is a Global and Subagents framework that allow us to set q
 >> Subagent Prompts help define a context and allow explicit redirections, format and conciseness and tone.
   
 # Demo
-![Demo](assets/VoiceAgentDemo1.mp4)
+![Demo](assets/VoiceAgentDemo.mp4)
 
 # Setup Instructions
 ![Setup_Instruction](docs/Setup_Instructions.md)
