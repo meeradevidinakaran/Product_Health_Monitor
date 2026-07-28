@@ -1,6 +1,9 @@
 # Product_Health_Monitor
 A multi-agent multi modal AI workflow using ElevenLabs, that lets you query product health data by simply asking questions out loud. This assists a TPM/PM gather relevant data faster and also lets product teams get details on the go reducing the load on PM/TPM.
 
+# Multi Modal 
+An agent becomes multi-modal when its perceive → reason → act loop spans more than one type of data.
+
 # Problem Statement
 TaskFlow, a project management SaaS product with 9,764 paying customers and $14.88M ARR, is experiencing growing pains. Support ticket volume has risen 25% month‑over‑month, Net Promoter Score (NPS) has dropped from 45 to 38, mobile app usage is down 15%, and the free‑to‑paid conversion rate has declined from 11.2% to 8.4%.The data needed to understand these problems exists across three separate sources:
 >> User feedback (NPS surveys, app reviews, interview transcripts, in‑app submissions)
@@ -25,13 +28,25 @@ Each Subagent is equipped with relevant knowledge base and system prompts. Every
 **Evaluation**
 <img width="1920" height="1020" alt="Screenshot 2026-07-28 222238" src="https://github.com/user-attachments/assets/42785d6d-06c4-4169-b703-d9b984ad9d64" />
 
+# Guardrails 
+
+In Elevenlabs flash processes audio end to end there is no separate (Speech to Text) STT and (Text to speech)TTS step reducing latency or any emotion loss.
+In each project there is a Global and Subagents framework that allow us to set quality gates at multiple levels.
+>> Global Prompt allows to set instructions that is implicitly applicable to all the subagents in the workflow. ( ex- only use knowledge base data, avoid hallucinations, after answering politely ask if there's anything else required?" etc.)
+>> Subagent Prompts help define a context and allow explicit redirections, format and conciseness and tone.
+  
 # Demo
+![Demo](assets/VoiceAgentDemo1.mp4)
 
 # Setup Instructions
+![Setup_Instruction](docs/Setup_Instructions.md)
 
 # System Design
+![SystemDesign](assets/SystemDesign.png)
 
 # Scaling Stratergy
+![ScalingStrategy](docs/Scaling_Strategy.md)
+
 
 
 
