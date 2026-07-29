@@ -1,5 +1,5 @@
 # Product_Health_Monitor
-A multi-agent multi modal AI workflow using ElevenLabs, that lets you query product health data by simply asking questions out loud. This assists a TPM/PM gather relevant data faster and also lets product teams get details on the go reducing the load on PM/TPM.
+A multi-agent multi modal AI workflow using ElevenLabs, that lets you query product health data by simply asking questions out loud.
 
 # Multi Modal 
 An agent becomes multi-modal when its perceive → reason → act loop spans more than one type of data.
@@ -13,7 +13,7 @@ TaskFlow, a project management SaaS product with 9,764 paying customers and $14.
 Answering critical questions such as “What are the top complaints this month?”, “Which enterprise accounts are at risk of churning?”, or “Is our conversion rate improving?” currently requires opening three different dashboards, exporting data, and cross‑referencing manually. **Each analysis takes 30–60 minutes, and this process is repeated multiple times a week.** 
 
 # Goal
-Build a multi‑agent voice AI system that enables product teams to query health and performance data simply by asking questions out loud. The system should leverage workflow orchestration to intelligently route each query to the appropriate specialist agent — whether the question is about user feedback, support tickets, or product metrics — ensuring accurate, context‑aware responses without manual dashboard cross‑referencing. Reducing the workload on PM/TPM of analyzing all the documents manually.
+Build a multi‑agent voice AI system that enables product teams to query health and performance data simply by asking questions out loud. The system should leverage workflow orchestration to intelligently route each query to the appropriate specialist agent — whether the question is about user feedback, support tickets, or product metrics — ensuring accurate, context‑aware responses without manual dashboard cross‑referencing. Automating cross-functional data synthesis to enable data-driven decision-making for PM/ TPMs.
 
 # Solution
 We Will be using **Eleven Labs** platform to build our Multi modal agentic workflow. We will also evaluate the voice agents tone and optimize as per the requirement. 
