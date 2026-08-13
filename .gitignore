@@ -236,3 +236,8 @@ secrets.json
 #data/*.csv
 #data/*.pdf
 !data/.gitkeep
+
+# Ignore a specific file
+private_Scaling_Strategy.md
+docs/Scaling_Strategy.md
+
