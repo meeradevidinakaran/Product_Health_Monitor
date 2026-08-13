@@ -48,7 +48,7 @@ https://github.com/user-attachments/assets/0910ce98-2127-4b2e-89b9-7e9ab5d41621
 ![Setup_Instructions](docs/Setup_Instructions.md)
 
 # System Design
-![System Design](assets/VA_SystemDesign.png)
+![System Design](assets/VoiceAgent_SystemDesign.png)
 
 This System Design illustrates the Multi-Agent Orchestration layer. It highlights the use of a Greeter Agent for intent-based routing and Specialist Agents with scoped Knowledge Bases to ensure groundedness and eliminate cross-domain hallucinations
 
