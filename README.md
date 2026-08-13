@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/0910ce98-2127-4b2e-89b9-7e9ab5d41621
 This System Design illustrates the Multi-Agent Orchestration layer. It highlights the use of a Greeter Agent for intent-based routing and Specialist Agents with scoped Knowledge Bases to ensure groundedness and eliminate cross-domain hallucinations
 
 # Scaling Strategy
-https://github.com/meeradevidinakaran/Scaling-Strategies/blob/0ca40e48883ec11df9b2c013aad2a0560bbcdd2a/assets/Scaling_Strategy.md
+Full implementation templates and production scaling strategies are maintained in a private repository; access for technical review is available upon request.
 
 
 
